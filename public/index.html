@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="shortUrlApp">
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Url Shortner</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div id="cont" ng-controller="shortAppCtrl">
+            <h1 id="heading">Url Shortener</h1>
+            
+                <input type="text" class="input_url" ng-model="urlToShorten">
+                <button id="submit"><a ng-href="/new/{{urlToShorten}}">Shorten Url</a></button>
+
+            <p id="answer"></p>
+        </div>
+    </center>
+</body>
+
+</html>

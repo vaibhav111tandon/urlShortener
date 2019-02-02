@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(46, 147, 230);
+    border-style: dashed;
+    border-width: 10px;
+    border-color: whitesmoke;
+    margin: 10px;
+}
+#cont{
+    height: 75vh;
+}
+#heading{
+    margin-top: 100px;
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 7.5vw;
+}
+.input_url{
+    width: 50%;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    padding-left: 20px;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(19, 16, 16);
+    font-weight: 700;
+    border: transparent;
+}
+#submit{
+    border: none;
+    width: auto;
+    height: 60px;
+    padding: 5px;
+    font-family: 'Source Code Pro', monospace;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: coral;
+}
+#submit:hover{
+    background-color: chocolate;
+}
